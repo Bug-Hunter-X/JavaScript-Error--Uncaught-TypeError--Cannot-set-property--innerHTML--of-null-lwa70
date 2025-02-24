@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily missed HTML/JavaScript error.  The bug arises from trying to manipulate the innerHTML of a DOM element that hasn't been created or isn't yet available in the DOM.  The solution involves ensuring the target element exists before attempting to modify it.  This often happens when scripts run before the DOM is fully loaded.
